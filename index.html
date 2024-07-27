@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contenta="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            height: 0;
+
+        }
+        .tong {
+            display: flex;
+            background-image: url(https://www.w3schools.com/howto/img_girl.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+            justify-content: space-between;
+        }
+        
+        a {
+            text-decoration: none;
+            padding: 10px;
+            color: gray;
+        }
+
+        @media only screen and (max-width: 640px) {
+            .menu {
+                display: none;
+            }
+            
+            .icon {
+                display: flex;
+                margin-left: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tong">
+        <div class="menu">
+            <a href="#home" class="w3-bar-item home">HOME</a>
+            <a href="#about" class="w3-bar-item about"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item por"><i class="fa fa-th"></i> PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item contact"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        <div class="icon">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+</body>
+
+</html>
